@@ -6,16 +6,25 @@
   <title>SHICS Staff Management</title>
   <link rel="stylesheet" href="styles/login.css">
 </head>
-<body>
-  <div>
-    <h1>login</h1>
-    <form>
-      <label for="email">email</label>
-      <input type="email" id="email" required>
-      <label for="password">password</label>
-      <input type="password" id="password" required>
+<body class="body">
+  <main class="login-container">
+    <form class="login-form">
+      <h1 class="login-title">login</h1>
+
+      <div class="input-group">
+        <label class="email-label" for="email">email</label>
+        <input class="login-input" type="email" id="email" required>
+     </div>
+
+     <div class="input-group">
+       <label class="password-label" for="password">password</label>
+       <input class="login-input" type="password" id="password" required>
+     </div> 
+     
+      
+      <button type="submit" class="login-button">login</button>
     </form>
-  </div>
+  </main>
   
 </body>
-</html>
+</html><!--  -->
