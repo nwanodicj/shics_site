@@ -13,6 +13,15 @@
   align-items: center;
 }
 
+.home-button a {
+  background-color: #0b3c5d;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*LOGIN CONTAINER*/
 .login-container{
   background-color: ffffff;
